@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
+    <link rel="stylesheet" href="/css/resposividade.css">
+    <title>AluraPlay</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Cabecalho -->
+    <header>
+
+        <nav class="cabecalho__container">
+
+            <h1 class="logo__item" href="#"></h1>
+
+            <div class="cabecalho__pesquisar__item">
+                <form action="">
+                    <input type="search" placeholder="Pesquisar" id="pesquisar" class="pesquisar__input">
+                    <label for="pesquisar" class="pesquisar__label"></label>
+                </form>
+                <a href="#" class="cabecalho__audio"></a>
+            </div>
+
+            <div class="cabecalho__icones__item">
+                <a href="#" class="cabecalho__videos"></a>
+                <a href="#" class="cabecalho__apps"></a>
+                <a href="#" class="cabecalho__notificacoes"></a>
+                <a href="#" class="cabecalho__avatar"></a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Menu lateral -->
+
+    <aside class="menu__container">
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__inicio icone-item"></i>
+                    <span>Início</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__explorar icone-item"></i>
+                    <span>Explorar</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__shorts icone-item"></i>
+                    <span>Shorts</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__inscricoes icone-item"></i>
+                    <span>Inscrições</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__biblioteca icone-item"></i>
+                    <span>Biblioteca</span></a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__historico icone-item"></i>
+                    <span>Histórico</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__relogio icone-item"></i>
+                    <span>Assistir mais tarde</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__like icone-item"></i>
+                    <span>Marcados com like</span></a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__mostrar icone-item"></i>
+                    <span>Mostrar mais 2</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__deschamps icone-item"></i>
+                    <span>Felipe Deschamps</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__nerd icone-item"></i>
+                    <span>Jovem Nerd</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__souto icone-item"></i>
+                    <span>Mario Souto</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__iamarino icone-item"></i>
+                    <span>Atila Iamarino</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__ballerini icone-item"></i>
+                    <span>Rafaella Ballerini</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__gaveta icone-item"></i>
+                    <span>Gaveta</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__alura icone-item"></i>
+                    <span>Alura</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens inscricoes" href="#">INSCRIÇÕES</a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li class="jogos">
+                <a class="menu__itens" href="#">
+                    <i class="icone__jogos icone-item"></i>
+                    <span>Jogos</span></a>
+            </li>
+
+            <li class="filmes">
+                <a class="menu__itens" href="#">
+                    <i class="icone__filmes icone-item"></i>
+                    <span>Filmes</span></a>
+            </li>
+            <li class="premium">
+                <a class="menu__itens" href="#">
+                    <i class="icone__videos icone-item"></i>
+                    <span>Vídeo Premium</span></a>
+            </li>
+
+            <li class="menu__itens maispagina">
+                <a href="#">MAIS DA PÁGINA</a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- Seção superior -->
+
+    <section class="superior__secao__container">
+        <a class="superior__item" href="#">Tudo</a>
+        <a class="superior__item" href="#">Debates</a>
+        <a class="superior__item" href="#">Ao Vivo</a>
+        <a class="superior__item" href="#">Podcasts</a>
+        <a class="superior__item" href="#">Fundos de Investimento</a>
+        <a class="superior__item" href="#">Desenhos</a>
+        <a class="superior__item" href="#">Data Science</a>
+        <a class="superior__item" href="#">Apps</a>
+        <a class="superior__item" href="#">Linguagem de Programação</a>
+        <a class="superior__item" href="#">Ciência da Computação</a>
+        <a class="superior__item" href="#">Marketing</a>
+    </section>
+
+    <!-- Vídeos -->
+
+    <ul class="videos__container">
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/PFPA1GBp1Lw?si=FECgLgAqMClmJC-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+                <h3>a nova SNIPER do MWIII é PERFEITA 🥰 + LOADOUT</h3>
+                <p>1,6 mil visualizações - Transmitido há 6 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/XqUDtOgGij8?si=qEieYgCnDkojIdwa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+                <h3>peguei PLATINA no PISTOLÃO e SHIPMENT voltou 😳</h3>
+                <p>44 mil visualizações - Transmitido há 1 mes</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/VkGIV6Zjry8?si=K6z13b1LjLYJh9rD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+                <h3>baixei um VIRUS pra me ATRAPALHAR a jogar COD... e quase fiquei maluco 🪿</h3>
+                <p>45 mil visualizações - Transmitido há 2 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/PC1xTVAzBHM?si=A5IXxe4fkUt77v5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+                <h3>divertido e balanceado?? 🤨</h3>
+                <p>60 mil visualizações - Transmitido há 8 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/DTBNxK6fxgY?si=-_PrbCG_s4iAN_Qp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+                <h3>a SHURIKEN ta quebrada no MW3 + GOLD na faca 🥷</h3>
+                <p>50 mil visualizações - Transmitido há 7 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/FaKPlI1rht8?si=nkCox0aQUW1G6jqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+                <h3>peguei PLATINA nas SNIPERS... mas CORINGUEI MUITO 🤡</h3>
+                <p>107 mil visualizações - Transmitido há 11 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/bzZB8z8JQEY?si=sZXTkDii9Pugwhb4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+                <h3>então MW3 lançou oficialmente... ta bão? 🤔</h3>
+                <p>78 mil visualizações - Transmitido há 2 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/sUVGOhZ0tZk?si=Fe6AyRhCsc328Eru" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+                <h3>a AK47 SNIPER é real kkkkkkk ( é serio )</h3>
+                <p>55 mil visualizações - Transmitido há 6 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/Gwd0Rbsd-AY?si=vO6qNx3b-uAZsx9e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+                <h3>então COLD WAR ficou GRATUITO 🥰</h3>
+                <p>60 mil visualizações - Transmitido há 2 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/1bYO4gLxDJU?si=lucIAEIRGEWziVzb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+                <h3>MW3 CONFIRMADO... mas estou preocupado 😥</h3>
+                <p>74 mil visualizações - Transmitido há 4 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/84wVgJZfu_k?si=W0QZkkXGdgVmizdr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+                <h3>a MELHOR sniper voltou na SEASON 3... MAS 😞</h3>
+                <p>555 mil visualizações - Transmitido há 8 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/58ZelZ9fSP8?si=-i5C53LrvU4acMVa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+                <h3>jogar WARZONE 1 me fez sorrir de novo 😭</h3>
+                <p>33 mil visualizações - Transmitido há 3 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/zoIy0WXEzm4?si=GAXwYlH7Hhcwg_A2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+                <h3>esse jogo é ReAlisTa 🤨</h3>
+                <p>12 mil visualizações - Transmitido há 2 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/trMw9jparpc?si=Qihx7BsGvjgQK_O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+                <h3>o primeiro BLACK OPS em 2022 🥰</h3>
+                <p>118 mil visualizações - Transmitido há 4 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/sjAODPtDUWk?si=02eIT2kUSqCwyFSG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+                <h3>Jogando TODOS os Black Ops em 2022 📡🛰</h3>
+                <p>1,5 mil visualizações - Transmitido há 8 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/UZK5aaNPHO0?si=01IwfN1y9P24Je55" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+                <h3>joguei WARZONE SOLO no console e foi um erro 🤡</h3>
+                <p>1,6 mil visualizações - Transmitido há 6 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/QvvirU4yZAg?si=HArx8Il--vtoMaDn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+                <h3>então joguei Black Ops 4 em 2022... 🤩</h3>
+                <p>44 mil visualizações - Transmitido há 7 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/oWFY33wUAck?si=u72CH3boKB_-JbEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+                <h3>Cold War é DIVERTIDO e posso provar... ✨</h3>
+                <p>166 mil visualizações - Transmitido há 1 mes</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/PFPA1GBp1Lw?si=FECgLgAqMClmJC-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+                <h3>a nova SNIPER do MWIII é PERFEITA 🥰 + LOADOUT</h3>
+                <p>1,6 mil visualizações - Transmitido há 6 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="70%" src="https://www.youtube.com/embed/sUVGOhZ0tZk?si=Fe6AyRhCsc328Eru" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+                <h3>a AK47 SNIPER é real kkkkkkk ( é serio )</h3>
+                <p>55 mil visualizações - Transmitido há 6 meses</p>
+            </div>
+        </li>
+    </ul>
+
+    <!-- <Seção rodapé> -->
+    <footer class="rodape__container">
+        <section>
+            <h2 class="rodape__titulo">Programação</h2>
+            <p class="rodape__texto">Lógica</p>
+            <p>Python</p>
+            <p>Computação</p>
+            <p>Jogos</p>
+            <p>Computação</p>
+            <p>Node JS</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">Data Science</h2>
+            <p class="rodape__texto">Ciência de dados</p>
+            <p>BI</p>
+            <p>SQL</p>
+            <p>Banco de Dados</p>
+            <p>Machine Learning</p>
+            <p>NoSQL</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">UX e Design</h2>
+            <p class="rodape__texto">Photoshop</p>
+            <p>Illustrator</p>
+            <p>Usabilidade</p>
+            <p>Vídeo e Motion</p>
+            <p>Figma</p>
+            <p>Interface</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">Inovação e Gestão</h2>
+            <p class="rodape__texto">Métodos ágeis</p>
+            <p>Softskills</p>
+            <p>Liderança</p>
+            <p>Gestão</p>
+            <p>Startups</p>
+            <p>Vendas</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">Front-end</h2>
+            <p class="rodape__texto">HTML</p>
+            <p>CSS</p>
+            <p>React</p>
+            <p>Angular</p>
+            <p>JavaScript</p>
+            <p>jQuery</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">Devops</h2>
+            <p class="rodape__texto">AWS</p>
+            <p>Azure</p>
+            <p>Docker</p>
+            <p>Segurança</p>
+            <p>IaC</p>
+            <p>Linux</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">Mobile</h2>
+            <p class="rodape__texto">React Native</p>
+            <p>Flutter</p>
+            <p>iOS</p>
+            <p>Swift</p>
+            <p>Android</p>
+            <p>Kotlin</p>
+        </section>
+    </footer>
+
+</body>
+
+</html>
